@@ -1,0 +1,60 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.carousel-inner{
+    img{
+        height : 500px;
+        width: auto !important;
+        @media only screen and (max-width :768px){
+            height : 100% !important;
+            width: auto !important;
+        }
+    }
+    .active{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            height : 500px;
+            width: auto !important;
+            @media only screen and (max-width :768px){
+                height : 100% !important;
+                width: auto !important;
+            }
+        }
+    }
+}
+.ima{
+    height : 500px;
+    width: 100%;
+    background:rgb(219, 219, 219);
+    display:flex;
+    justify-content: center;
+    @media only screen and (max-width :768px){
+        max-height : 400px !important;
+        width: 100%;
+    }
+}
+
+.carousel-caption {
+    margin-top : 20px;
+    position: relative;
+    left: auto;
+    right: auto;
+    color : black;
+    @media only screen and(max-width: 768px){
+        display : block !important;
+    }
+}
+
+h1{
+    text-align: center;
+    margin : 0.5em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    height: 500px;
+    @media only screen and (max-width :768px){
+        height : 400px !important;
+    }
+}
