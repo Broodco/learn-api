@@ -1,0 +1,6 @@
+curl -X POST -u "apikey:XXXXXXX" \
+--header "Content-Type: application/json" \
+--header "Accept: audio/wav" \
+--data '{"text": "how are you doing today"}' \
+--output howareyou.wav \
+"https://gateway-lon.watsonplatform.net/text-to-speech/api/v1/synthesize"
